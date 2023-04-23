@@ -1,0 +1,327 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: black;
+}
+
+button {
+  background-color: #95389e;
+  color: #f7f7f7;
+  border: none;
+  cursor: pointer;
+  padding: 0.35em 0.7em;
+}
+
+p {
+  letter-spacing: 1px;
+  margin: 5px 0 10px 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 2.76923077rem;
+  margin: 0 auto;
+  color: white;
+  width: 100%;
+  padding: 0 12px;
+  font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+  line-height: 1.33333333;
+  margin-bottom: 0;
+}
+.header-class {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+.navbar {
+  width: 74.9999999%;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-list {
+  width: 100%;
+  padding: 0 12px;
+  justify-content: flex-end;
+  list-style: none;
+  display: flex;
+}
+
+.logo {
+  width: 25%;
+  padding: 0 12px;
+}
+.nav-list-item:last-child {
+  width: 16.6666667%;
+  padding: 0 12px;
+  position: relative;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  width: 16.6666667%;
+  padding: 0 12px;
+}
+.ul-footer-links li {
+  font-weight: bold;
+}
+.intro-article {
+  width: 100%;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.background img {
+  position: absolute;
+}
+.nav-list-item img {
+  position: absolute;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  padding: 0 0.6em;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.nav-list-link:hover {
+  color: #f7f7f7;
+}
+.get-started-button {
+  margin: 0 auto;
+}
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 66.6666666%;
+  padding: 0 12px;
+  justify-content: center;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 12px;
+}
+.footer-text {
+  width: 100%;
+  padding: 0 12px;
+}
+.ul-footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  width: 74.9999999%;
+  padding: 0 12px;
+}
+.container {
+  max-width: 76%;
+  margin: 0 auto;
+  position: relative;
+}
+.row {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #14181c;
+  font-family: 'Roboto Slab', serif;
+  overflow-x: hidden;
+}
+
+.background {
+  min-height: 90vh;
+  position: absolute;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background img {
+  z-index: -2;
+}
+
+.background .movie-title {
+  transform: rotate(270deg);
+  right: 0;
+  top: 50%;
+}
+
+.background .movie-title a {
+  color: #94a5b680;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.movie-title {
+  position: absolute;
+  color: white;
+}
+header {
+  padding: 2em 0;
+  z-index: 3;
+  letter-spacing: 1px;
+}
+
+header img {
+  margin-top: -0.5em;
+}
+
+header nav ul li input,
+header ul input {
+  opacity: 0.4;
+  border-radius: 100px;
+  border: none;
+  padding: 0.2em 1em;
+  transition: opacity 100ms ease-in;
+  width: 100%;
+}
+
+header nav ul li input:focus,
+header ul input:focus {
+  opacity: 1;
+}
+
+header nav ul li input:hover,
+header ul input:hover {
+  opacity: 1;
+}
+
+header nav ul li img,
+header ul img {
+  right: 20%;
+  top: 55%;
+  width: 12px;
+}
+
+main {
+  margin-top: 40vh;
+}
+
+.intro {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro button {
+  background-color: #00c030;
+  min-width: 25%;
+  padding: 0.5em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.intro button:hover {
+  background-color: #00b020;
+}
+
+.intro p {
+  color: #707f8d;
+}
+
+.intro p i {
+  width: 32px;
+  margin-left: 0.3em;
+}
+
+.intro p .apple-logo {
+  background: url('iconmonstr-apple-os-1-24.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.intro p .android-logo {
+  background: url('iconmonstr-android-os-1-32.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+footer {
+  position: relative;
+  padding: 2em 0;
+  background-color: #2c3440;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer::before {
+  content: '';
+  background-color: #2c3440;
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 30%;
+  height: 100%;
+}
+
+footer::after {
+  content: '';
+  background-color: #2c3440;
+  position: absolute;
+  top: 0;
+  right: -30%;
+  width: 30%;
+  height: 100%;
+}
+
+footer div ul {
+  padding: 1em 0 !important;
+}
+
+footer div ul li {
+  color: #94a5b6;
+  font-size: 0.9rem;
+}
+footer p,
+footer a {
+  color: #94a5b696;
+  font-size: 0.8rem;
+}
