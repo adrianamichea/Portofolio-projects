@@ -1,6 +1,0 @@
-﻿  ExecutionTime.cpp
-E:\uni projects\anul II\Modern C++\Proiect\ProjectModernCpp\TriviadorGame\ExecutionTime\ExecutionTime.h(25,49): warning C4251: 'ExecutionTime::m_startTime': class 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' needs to have dll-interface to be used by clients of class 'ExecutionTime'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\__msvc_chrono.hpp(666): message : see declaration of 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>'
-E:\uni projects\anul II\Modern C++\Proiect\ProjectModernCpp\TriviadorGame\ExecutionTime\ExecutionTime.h(26,83): warning C4251: 'ExecutionTime::m_stopTimes': class 'std::vector<std::pair<uint8_t,std::chrono::steady_clock::time_point>,std::allocator<std::pair<uint8_t,std::chrono::steady_clock::time_point>>>' needs to have dll-interface to be used by clients of class 'ExecutionTime'
-E:\uni projects\anul II\Modern C++\Proiect\ProjectModernCpp\TriviadorGame\ExecutionTime\ExecutionTime.h(26): message : see declaration of 'std::vector<std::pair<uint8_t,std::chrono::steady_clock::time_point>,std::allocator<std::pair<uint8_t,std::chrono::steady_clock::time_point>>>'
-  ExecutionTime.vcxproj -> E:\uni projects\anul II\Modern C++\Proiect\ProjectModernCpp\TriviadorGame\x64\Debug\ExecutionTime.dll

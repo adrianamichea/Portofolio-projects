@@ -1,1 +1,0 @@
-E:\uni projects\anul II\Modern C++\Proiect\ProjectModernCpp\TriviadorGame\TriviadorClient\x64\Debug\TriviadorClient.vcxproj.CopyComplete
