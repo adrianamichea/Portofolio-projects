@@ -1,6 +1,6 @@
 # Portofolio-projects
 
-This repository contains a collection of my university projects, completed as part of my computer science degree. Each project is stored in a separate folder and includes the source code, any necessary documentation, and a README file.
+This repository contains a collection of my university projects, completed as part of my computer science degree. Each project is stored in a separate folder and includes the source code and any necessary documentation.
 
 ## Projects
 
