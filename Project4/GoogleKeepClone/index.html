@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Keep Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img
+          src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"
+        />
+        <h1>Keep</h1>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search" id="search" />
+      </div>
+    </div>
+    <div class="new-note" id="new-note">
+      <div class="new-note-header" onclick="toggleExpanded()">
+        <h3>Take a note...</h3>
+      </div>
+      <div class="new-note-body">
+        <input type="text" placeholder="Title" />
+        <textarea placeholder="Take a note..."></textarea>
+      </div>
+      <div class="new-note-footer">
+        <input type="color" value="#ffffff" id="new-note-color" />
+        <input type="file" id="new-note-image" accept="image/*" />
+      </div>
+    </div>
+    <div class="notes-container"></div>
+    <div class="overlay"></div>
+  </body>
+</html>
