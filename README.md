@@ -19,7 +19,7 @@ Project 5: [Letterboxd Clone](./Project4)- Letterboxd Landing Page Clone using v
 ## Technologies Used
 
 Here are some of the technologies and tools used in these projects:<br>
-
+The internship project: Angular as a framework, HTML, SCSS, Typescript, Angular Material.NodeJs as backend and MongoDb as database.Also used Visual Studio Code, Swagger,PostMan,Jira.
 Project 1: SQL in Microsoft Sql Server Management Studio 2018 <br>
 Project 2: Java in Visual Studio Code<br>
 Project 3: C++ in Visual Studio with SqLite and vspkg.Using Client-Server architecture.<br>
