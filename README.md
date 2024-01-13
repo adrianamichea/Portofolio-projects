@@ -5,8 +5,7 @@ This repository contains a collection of my university projects, completed as pa
 ## Projects
 
 Apart from the following I can also present the angular project I worked on during my internship at Nagarro, an e-shop website called
-*Awesome Sneakers*. I can't include it here since it is a private repository.
-Check out *Awesome Sneakers* [here](https://awesomesneakers.fly.dev/shop/) . <br>
+*Awesome Sneakers*. I can't include it here since it is a private repository,but you can check *Awesome Sneakers* hosted [here](https://awesomesneakers.fly.dev/shop/) . <br>
 Here's a brief overview of the projects included in this repository:<br>
 
 Project 1: [Blood Transfusion Center](./Project1) - A database for a blood transfusion center.More details in the docx.<br>
